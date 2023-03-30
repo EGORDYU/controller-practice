@@ -1,0 +1,10 @@
+<%- include('partials/header.ejs') %>
+
+<h1>Least Favourite Products</h1>
+<ul>
+  <% products.forEach((product) => { %>
+    <li><%= product %></li>
+  <% }) %>
+</ul>
+
+<%- include('partials/footer.ejs') %>  

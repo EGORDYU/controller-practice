@@ -1,0 +1,10 @@
+<%- include('partials/header.ejs') %>
+
+<h1>Least Favourite Movies</h1>
+<ul>
+  <% movies.forEach((movie) => { %>
+    <li><%= movie %></li>
+  <% }) %>
+</ul>
+
+<%- include('partials/footer.ejs') %>  
